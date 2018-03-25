@@ -62,6 +62,7 @@
                   <div class="form-group" id="v_kla">
                     <label>Klasifikasi Barang</label>
                     <select class="form-control" name="id_klasifikasi" id="id_klasifikasi">
+						
                     </select>
                   </div>
                   <div class="form-group">

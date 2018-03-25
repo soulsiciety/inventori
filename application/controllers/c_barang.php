@@ -4,7 +4,7 @@ class C_barang extends CI_Controller{
     function __construct()
     {
         parent::__construct();
-        $this->load->model(array('m_barang','m_peminjaman','m_kategori_barang','m_jenis_barang'));
+        $this->load->model(array('m_barang','m_peminjaman','m_kategori_barang','m_jenis_barang','m_klasifikasi_barang'));
         $this->load->library(array('form_validation','upload'));
         $this->load->helper('text');      
 
